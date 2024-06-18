@@ -12,4 +12,5 @@ To run the script, simply execute:
 ```
 python3 fetch_stanley_temperature.py
 ```
+## Output
 ![Stanley Temperature Checker](images/image.png)
