@@ -27,8 +27,6 @@ def get_current_temperature_data(station_code, date):
             }
     except requests.exceptions.RequestException as e:
         print(f"Request Exception: {e}")
-    except ValueError:
-        print("Error parsing JSON response")
     
     return None
 
